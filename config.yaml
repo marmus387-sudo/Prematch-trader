@@ -1,0 +1,14 @@
+
+risk:
+  bank: 1000.0
+  stake_fraction: 0.01
+  max_exposure_per_event: 0.03
+strategy:
+  name: "steam_chaser"
+  params:
+    momentum_ticks: 3
+    momentum_window_sec: 900
+    target_ticks: 2
+    stop_ticks: 3
+    min_volume_ratio: 1.3
+    time_exit_sec: 600
